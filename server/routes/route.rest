@@ -1,0 +1,34 @@
+GET http://localhost:3000/logs
+
+###
+
+GET http://localhost:3000/logs/62456ed94de8813a0bea49d4
+
+###
+
+POST http://localhost:3000/logs
+Content-type: application/json
+
+{
+    "host": "192.168.5.5",
+    "usuario": "alesander",
+    "fecha": "1992-1-1",
+    "recurso": "GET/recurso.jpg",
+    "codigo": "200",
+    "tamano": "4000",
+    "pagina": "https://almi.eus",
+    "navegador": "Mozilla/72.02[en]"
+}
+
+###
+
+DELETE http://localhost:3000/logs/624c1a89d8b3d164c92748ab
+
+###
+
+PATCH http://localhost:3000/logs/62456ed94de8813a0bea49d8
+Content-Type: application/json
+
+{
+    "usuario": "pepe"
+}

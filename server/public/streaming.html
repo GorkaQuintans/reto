@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>streaming</title>
+    <link rel="stylesheet" href="streaming/streaming.css">
+    <link rel="stylesheet" media="only screen and (max-width: 859px)" href="streaming.css">
+    <link rel="stylesheet" media="only screen and (max-width: 681px)" href="streaming.css">
+</head>
+<body>
+
+       
+<div class="espacio1">
+
+    <input id="checkitem" type="checkbox"  onclick="enableDarkMode()" >
+
+    <header class="menu">
+    <div class="menu2">
+        <div class="bars__menu" id="abrir">
+        <span class="line1__bars-menu"></span>
+        <span class="line2__bars-menu"></span>
+        <span class="line3__bars-menu"></span>
+    </div>
+    <nav class="nav" id="nav">
+    
+        <div class="logo1">
+    
+            <div class="bars__menu" id="cerrar">
+            <span class="line1__bars-menu"></span>
+            <span class="line2__bars-menu"></span>
+            <span class="line3__bars-menu"></span>
+        </div>
+            <img id="foto" src="img/CyberhDog.png" alt width="100" height="100">
+    </div>
+        <div class="nav-list">
+    
+            <a class="links" href="index.html"> <li> Inicio    </li></a>
+            <a class="links" href="streaming.html"> <li> Streaming  </li></a>
+            <a class="links" href="convertt.html"> <li> Convertidor  </li></a>
+           
+            
+            
+        </div>
+    </nav>
+    
+   <a href="login.html"><button class="drop-button">Login</button></a>
+    </div>
+    
+    <img id="foto1" class="logo" src="img/CyberhDog.png" alt width="150" height="150">  
+    
+    
+    </header>
+    <br>
+
+    <header class="streaming">
+        <div>
+        <br>
+        <h1>
+            Streaming del CyberhDog
+        </h1>
+        <br>
+        <header class="ll">
+        
+        <iframe class="video" src="http://192.168.1.39:7000/stream.mjpg" frameborder="0"></iframe>
+        </div>
+        <div>
+            <h1>
+            temperatura
+            </h1>
+            <p>
+                información
+            </p>
+        </div>
+        </header>
+
+        <br>
+        <button>B</button>
+        
+    </header>
+ 
+    <script src="reto3.js"></script> 
+</body>
+</html>
